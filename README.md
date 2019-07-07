@@ -1,0 +1,2 @@
+# smartping8
+SMARTPING v0.8.0 RELEASE
