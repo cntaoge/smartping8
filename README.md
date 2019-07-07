@@ -17,12 +17,12 @@ yum install golang -y
 yum install git -y
 cd /home
 git clone -b master https://github.com/cntaoge/smartping8.git 
-chmod -R 755 /home/smartping/
+chmod -R 755 /home/smartping8/
 firewall-cmd --zone=public --add-port=8899/tcp --permanent 
 firewall-cmd --reload
-echo "cd /home/smartping;./control start" >>/etc/rc.d/rc.local
+echo "cd /home/smartping8;./control start" >>/etc/rc.d/rc.local
 chmod +x /etc/rc.d/rc.local
-cd /home/smartping;./control start
+cd /home/smartping8;./control start
 </pre>
 <p>
 <br>上面的命令已经含了添加防火墙、添加启动项、目录权限、修改时区、GO语言；安装完成直接访问监控平台页面就可以了。
