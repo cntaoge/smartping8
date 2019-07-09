@@ -41,4 +41,3 @@ vi /home/smartping8/conf/config.json</pre>
 <pre>cd /home/smartping8;./control restart</pre>
 <p>
 <br>如果您还不能正常访问监控平台，请检查宝塔面板或者其它面板的防火墙设置、云系统防火墙的安全组设置，那边也是需要打开相应的端口。</br>
-<br>内置默认的节点数据不建议新手修改、删除，否则程序可能会出现异常，只做添加新节点就好。</br>
