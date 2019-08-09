@@ -4,7 +4,6 @@ SMARTPING v0.8.0 RELEASE
 <li>程序官方网站： http://smartping.org/
 <li>自己仅为了方便安装及备用。
 <li>广州演示版地址：http://gzping.eaavps.com
-<li>上海演示版地址：http://shping.eaavps.com
 <li>欧美亚VPS推荐网交流：https://www.eaavps.com
 
 <br>------------------------------------------------------------------------
