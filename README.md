@@ -12,8 +12,8 @@ SMARTPING v0.8.0 RELEASE
 <br>
 <pre>
 timedatectl set-timezone Asia/Shanghai
-yum install golang -y
-yum install git -y
+yum install -y epel-release
+yum install -y golang git
 cd /home
 git clone -b master https://github.com/cntaoge/smartping8.git 
 chmod -R 755 /home/smartping8/
